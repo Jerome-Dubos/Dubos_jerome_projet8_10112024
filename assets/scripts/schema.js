@@ -1,5 +1,5 @@
 function injectSchemaData() {
-    
+
     const schemaData = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
@@ -21,7 +21,8 @@ function injectSchemaData() {
         },
         "sameAs": [
             "https://www.instagram.com/ninacarducci.photo/?hl=fr"
-        ]
+        ],
+        "image": '../images/nina.webp'
     };
 
     const script = document.createElement('script');
