@@ -1,5 +1,5 @@
 function injectSchemaData() {
-    // Le contenu JSON-LD sous forme de données
+    
     const schemaData = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
